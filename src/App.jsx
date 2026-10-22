@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { supabase } from './supabaseClient'
-import { QuickStats, TransactionList } from './components/FinanceModule'
+import { QuickStats, TransactionList } from './components/FinanceModule.jsx'
 import { Building2, Plus, RefreshCw, CreditCard } from 'lucide-react'
 
 export default function App() {
