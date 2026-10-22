@@ -3,8 +3,8 @@ import { createClient } from '@supabase/supabase-js'
 import { Building2, Plus, RefreshCw, CreditCard, UserCheck, AlertCircle, ArrowUpRight, CheckCircle2 } from 'lucide-react'
 
 // Konfigurasi Supabase Client
-const supabaseUrl = import.meta.env.https://bgemjjxgtgefphxospnb.supabase.co || ''
-const supabaseAnonKey = import.meta.env.sb_publishable_ccNd8IVl4J_Gp13eAz0t2w_1FnBECmU || ''
+const supabaseUrl = https://bgemjjxgtgefphxospnb.supabase.co || ''
+const supabaseAnonKey = b_publishable_ccNd8IVl4J_Gp13eAz0t2w_1FnBECmU || ''
 const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 // Komponen Statistik
